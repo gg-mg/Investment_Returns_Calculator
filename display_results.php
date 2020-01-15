@@ -43,7 +43,7 @@ for ($counter=1; $counter<=$years; $counter++) {
 $investment_f = '$'.number_format($investment, 2);
 $yearly_rate_f = $interest_rate.'%';
 $future_value_f = '$'.number_format($future_value, 2);
-
+$date= date('m/d/y');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -66,10 +66,13 @@ $future_value_f = '$'.number_format($future_value, 2);
        <span><?php echo $years ?></span><br>
 
        <label >Future Value:</label>
-       <span><?php echo $future_value_f ?></span><br>
+       <span><?php echo $future_value_f ?></span><br> 
  
  
  
- </main>    
+ </main> 
+ <footer> <label >This calculation was done on </label>
+       <span><?php echo $date ?></span>
+       </footer>   
 </body>
 </html>
