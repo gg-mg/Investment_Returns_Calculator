@@ -1,4 +1,6 @@
 <?php
+//set default value of variables for initial page load
+//do more research on this part of the code
 if (!isset($investment)) {
     $investment = '';
 }
