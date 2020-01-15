@@ -1,0 +1,24 @@
+h1{
+    color: purple;
+}
+
+#data input{
+    padding:2px;
+    margin:5px;
+}
+#years{
+    padding-right: 1.6%;
+    color: cadetblue;
+}
+#buttons{
+    float: left;
+    background-color: blue;
+    border: none;
+}
+#rate{
+    color: mediumorchid;
+    padding-right: .3%;
+}
+#invest{
+    color: cornflowerblue;
+}
